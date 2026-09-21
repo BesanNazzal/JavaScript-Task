@@ -1,0 +1,18 @@
+console.log("Type of 100 : ",typeof(100));
+console.log("Type of 73.9 : ",typeof(73.9));
+console.log("Type of NAN : ",typeof(NaN));
+console.log("Type of Water : ",typeof("Water"));
+console.log("Type of False : ",typeof(false));
+console.log("Type of 9!=11 : ",typeof(9!=11));
+console.log("Orange + e : ",("Orange"+"e"));
+console.log("Orange - s : ",("Orange"-"e"));
+console.log("name + 3 : ",("name"+"3"));
+console.log("name - 3 : ",("name"-"3"));
+console.log("82*word : ",(82+"word"));
+console.log("1 + hello : ",(1+"hello"));
+console.log("hello  + 1 : ",("hello"+1));
+console.log("1+true : ",(1+true));
+console.log("hello  + true : ",("hello"+"true"));
+console.log("type of infinity: ",typeof(Infinity));
+console.log("1 == 1 : ",(1=='1'));
+console.log("1 === 1 : ",(1==='1'));
