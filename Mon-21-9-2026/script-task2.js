@@ -74,17 +74,34 @@ console.log(food);
 console.log(food.reverse());
 console.log(food.join(" "));
 console.log("----------------------");
+
 let birthYear = 2000;
 
 let currentYear = new Date().getFullYear(); 
 let age1 = currentYear - birthYear; 
-console.log("Age:", age); 
-if (age > 60)
-     { console.log("You may join the seniors’ program."); } else if (age > 30) 
-        { console.log("You are not eligible. You may join other programs."); } else if (age >= 18 && age <= 30) { console.log("You are eligible. Start your application."); } else { console.log("You may join the kids' program."); }
+console.log("Age:", age1); 
+if (age1 > 60)
+     { console.log("You may join the seniors’ program."); }
+ else if (age1 > 30) 
+        { console.log("You are not eligible. You may join other programs."); } 
+ else if (age1 >= 18 && age1 <= 30) { console.log("You are eligible. Start your application."); } 
+ else { console.log("You may join the kids' program."); }
 console.log("-----------------------");
-function switchCase(str) { let result = ""; for (let i = 0; i < str.length; i++) { if (str[i] === str[i].toUpperCase()) { result += str[i].toLowerCase(); } else { result += str[i].toUpperCase(); } } return result; } console.log(switchCase("OrAnGe"));
-function camelCase(str) { let words = str.split(" "); let result = words[0]; for (let i = 1; i < words.length; i++) { result += words[i][0].toUpperCase() + words[i].slice(1); } return result; } console.log(camelCase("Coding Academy by Orange"));
+function switchCase(str) {
+     let result = ""; 
+     for (let i = 0; i < str.length; i++) { 
+        if (str[i] === str[i].toUpperCase()) {
+             result += str[i].toLowerCase(); } 
+             else { result += str[i].toUpperCase(); } } 
+             return result; } 
+             console.log(switchCase("OrAnGe"));
+function camelCase(str) {
+     let words = str.split(" "); 
+     let result = words[0];
+      for (let i = 1; i < words.length; i++) {
+         result += words[i][0].toUpperCase() + words[i].slice(1); }
+          return result; } 
+          console.log(camelCase("Coding Academy by Orange"));
 
 function removeElement(arr, element) {
     let index = arr.indexOf(element);
